@@ -3,7 +3,7 @@ var express = require('express');
 
 mongoose
   .connect(
-    'mongodb://admin:senha@172.21.254.11:27017/testemongo',
+    'mongodb://admin:123123@172.21.7.30:27017/thiagodb',
     { useNewUrlParser: true }
   )
   .then(() => console.log('MongoDB Connected'))
